@@ -1,0 +1,20 @@
+{% extends 'users/base.html' %}
+{% block title %} Dashboard {% endblock %}
+
+{% block content %}
+
+<div class="card m-5 ">
+  <div class="card-header">
+    Your Account
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">Manage your <b>Account</b> and personal details</h5>
+    <p class="card-text small text-muted">Edit login, email and phone number</p>
+    <a href="{% url 'users:edit_details' %}" class="btn btn-primary">Edit Profile</a>
+  </div>
+</div>
+
+
+
+
+{% endblock %}
