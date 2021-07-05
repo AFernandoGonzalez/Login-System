@@ -135,4 +135,8 @@ AUTH_USER_MODEL = 'users.CustomUser'
 LOGIN_REDIRECT_URL = 'users:dashboard'
 LOGIN_URL = '/users/registration/login/'
 
+SECURE_HSTS_SECONDS= 0
 
+SECURE_SSL_REDIRECT = True
+SESSION_COOKIE_SECURE = True
+CSRF_COOKIE_SECURE = True
