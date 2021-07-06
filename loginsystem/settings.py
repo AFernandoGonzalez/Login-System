@@ -20,7 +20,7 @@ SECRET_KEY = env.str('SECRET_KEY')
 # DEBUG = env.bool('DEBUG', default=False)
 DEBUG = env.bool('DEBUG', default=False)
 
-ALLOWED_HOSTS = ['loginsytem1.herokuapp.com', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['ferloginsystem.herokuapp.com', 'localhost', '127.0.0.1']
 
 
 # Application definition
