@@ -1,5 +1,6 @@
 
 import os
+import django_heroku
 from  environs import Env
 from pathlib import Path
 
@@ -137,3 +138,4 @@ LOGIN_REDIRECT_URL = 'users:dashboard'
 LOGIN_URL = '/users/registration/login/'
 
 
+django_heroku.settings(locals())
