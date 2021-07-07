@@ -4,5 +4,5 @@ Hi {{ user.email }},
 
 Your account has successfully created. Please click below link to activate your account
 
-http://{{ domain }}{% url 'users:activate' uidb64=uid token=token %}
+https://{{ domain }}{% url 'users:activate' uidb64=uid token=token %}
 {% endautoescape %}
