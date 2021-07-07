@@ -139,3 +139,5 @@ LOGIN_URL = '/users/registration/login/'
 
 
 django_heroku.settings(locals())
+
+
